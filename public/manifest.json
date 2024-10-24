@@ -1,0 +1,60 @@
+
+{
+  "name": "PWA Intall Modal",
+  "short_name": "PWA Intall Modal",
+  "description": "Modal to install PWA on iOS or android",
+  "screenshots": [
+    {
+      "src": "screenshot.png",
+      "sizes": "1602x2560",
+      "type": "image/png",
+      "description": "Screen shot"
+    }
+  ],
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "id": "b96bafbf-98ae-4fe2-ab43-8170b0a0f621",
+  "dir": "auto",
+  "lang": "en",
+  "orientation": "portrait",
+  "categories": [
+    "productivity"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "display_override": [
+    "window-controls-overlay"
+  ]
+}
